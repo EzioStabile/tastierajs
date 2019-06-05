@@ -4,6 +4,7 @@ var a = document.getElementById('A');
 var testo;
 var frase = "";
 var inutile = "nonfaccionulla";
+var inutile2 = "nonfaccionulla2";
 
 class FunzioniTastiera {
 
