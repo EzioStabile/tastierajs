@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>TASTIERA</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <script src="index.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="quadrato1"><h2>Scrivi ciò che ti va.</h2> 
+            <input type="button" onclick="tastiera.nascondi()" value="Nascondi" id="nasconditi"/>
+        </div>
+        
+        <div id="tastiera" class="quadrato2" >
+            <button id="bottone" onclick="tastiera.scrivi('Q')" value="A"> Q </button></n>
+            <button id="bottone" onclick="tastiera.scrivi('W')" value="B"> W </button>
+            <button id="bottone" onclick="tastiera.scrivi('E')" value="B"> E </button>
+            <button id="bottone" onclick="tastiera.scrivi('R')" value="A"> R </button>
+            <button id="bottone" onclick="tastiera.scrivi('T')" value="B"> T </button>
+            <button id="bottone" onclick="tastiera.scrivi('Y')" value="B"> Y </button>
+            <button id="bottone" onclick="tastiera.scrivi('U')" value="A"> U </button>
+            <button id="bottone" onclick="tastiera.scrivi('I')" value="B"> I </button>
+            <button id="bottone" onclick="tastiera.scrivi('O')" value="B"> O </button>
+            <button id="bottone" onclick="tastiera.scrivi('P')" value="A"> P </button>
+            <button id="bottone1" onclick="tastiera.scrivi('A')" value="B"> A </button>
+            <button id="bottone1" onclick="tastiera.scrivi('S')" value="B"> S </button>
+            <button id="bottone1" onclick="tastiera.scrivi('D')" value="A"> D </button>
+            <button id="bottone1"  onclick="tastiera.scrivi('F')" value="B"> F </button>
+            <button id="bottone1" onclick="tastiera.scrivi('G')" value="B"> G </button>
+            <button id="bottone1" onclick="tastiera.scrivi('H')" value="A"> H </button>
+            <button id="bottone1" onclick="tastiera.scrivi('J')" value="B"> J </button>
+            <button id="bottone1" onclick="tastiera.scrivi('K')" value="B"> K </button>
+            <button id="bottone1" onclick="tastiera.scrivi('L')" value="A"> L </button>
+            <button id="bottone2" onclick="tastiera.scrivi('Z')" value="Z"> Z </button>
+            <button id="bottone2" onclick="tastiera.scrivi('X')" value="X"> X </button>
+            <button id="bottone2" onclick="tastiera.scrivi('C')" value="A"> C </button>
+            <button id="bottone2" onclick="tastiera.scrivi('V')" value="B"> V </button>
+            <button id="bottone2" onclick="tastiera.scrivi('B')" value="B"> B </button>
+            <button id="bottone2" onclick="tastiera.scrivi('N')" value="B"> N </button>
+            <button id="bottone2" onclick="tastiera.scrivi('M')" value="B"> M </button>
+            <button id="bottone3" onclick="tastiera.funzioneSpazio()" value="B"> SPAZIO </button>
+            <button id="bottone4" onclick="tastiera.clearA()"> DEL </button>
+            
+        </div>
+        
+        <div class="quadrato3" onfocus="tastiera.mostra()">
+        <input type="text" id="testo" onkeypress="tastiera.aggiornaTesto()" onfocus="tastiera.mostra()">
+            <output id="stampa"></output>
+        </div>
+
+
+    </body>
+
+    <script type=text/javascript>
+
+    </script>
+
+</html>
