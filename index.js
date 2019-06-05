@@ -3,6 +3,7 @@ var a = document.getElementById('A');
 
 var testo;
 var frase = "";
+var inutile = "nonfaccionulla";
 
 class FunzioniTastiera {
 
